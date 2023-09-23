@@ -1,0 +1,14 @@
+﻿<Window x:Class="VK_AutoSender.View.EnterCodeForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VK_AutoSender.View"
+        Icon="../Resources/icon.ico"
+        mc:Ignorable="d"
+        Title="Enter secret code" Height="120" Width="320" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="White" Foreground="{x:Null}">
+    <StackPanel Orientation="Horizontal" Background="#FF3C3C3C">
+        <TextBox x:Name="code" Height="59" VerticalContentAlignment="Center" FontSize="30" Margin="10" Width="200" Background="#FFA9E5FF"/>
+        <Button Click="Send" Content="Send" Width="70" Height="59" Background="#FF44DEAA"/>
+    </StackPanel>
+</Window>
